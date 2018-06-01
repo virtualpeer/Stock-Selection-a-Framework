@@ -6,7 +6,7 @@ Contributions
 Contributors:
 ------- 
 - ***XingYu Fu***
-- ***JingHong Du*** https://github.com/jaydu1 
+- ***JingHong Du*** ( https://github.com/jaydu1 )
 - ***YiFeng Guo*** 
 - ***MingWen Liu*** 
 - ***Tao Dong***

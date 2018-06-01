@@ -19,8 +19,7 @@ Institutions:
 ------- 
 - ***AI&FintechLab of Likelihood Technology***
 - ***Gradient Trading***
-- ***School of Mathematics, Sun Yat-sen University***
-- ***LingNan College, Sun Yat-sen University***
+- ***Sun Yat-sen University***
 
 Set up
 ====

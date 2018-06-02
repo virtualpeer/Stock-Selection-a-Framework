@@ -12,8 +12,6 @@ Contributors:
 - ***Tao Dong***
 - ***XiuWen Duan***
 - ***ZiYi Yang***
-- ***MingDi Zheng***
-- ***Yuan Zeng***
 
 Institutions: 
 ------- 

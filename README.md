@@ -42,5 +42,5 @@ Contact
 
 FAQ
 ===
-- Currently, we are not going to reveal the original raw data.
-- The full instruction is under written.
+- Currently, we are not going to reveal the raw data to public while the pipeline of manipulating the data will be shown.
+- The full tutorial (in the form of research paper) is under written.

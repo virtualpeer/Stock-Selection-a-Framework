@@ -40,7 +40,7 @@ Contact
 ====
 - fuxy28@mail2.sysu.edu.cn
 
-FAQ
+About
 ===
 - Currently, we are not going to reveal the raw data to public while the pipeline of manipulating the data will be shown.
 - The full tutorial (in the form of research paper) is under written.

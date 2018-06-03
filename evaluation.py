@@ -30,6 +30,7 @@ from keras.layers import Dense, Dropout
 from keras.layers.normalization import BatchNormalization
 from keras.optimizers import SGD
 from keras.utils import to_categorical
+from keras import regularizers
 # Random Forest 
 from sklearn.ensemble import RandomForestRegressor
 
@@ -51,11 +52,11 @@ class EvaluationClass:
         elif model_type == 2: # Deep Learning Model
             input_shape = np.shape(X_train)[1]
             model = Sequential()
-            model.add(Dense(input_shape//2, activation='relu', input_dim=input_shape))
+            model.add( Dense( input_shape//2, activation='relu', input_dim=input_shape, kernel_regularizer=regularizers.l2(0.01) ) )
             model.add(Dropout(0.5))
-            model.add(Dense(input_shape//4, activation='relu'))
+            model.add( Dense( input_shape//4, activation='relu', kernel_regularizer=regularizers.l2(0.01) ) )
             model.add(BatchNormalization())
-            model.add(Dense(2, activation='softmax'))
+            model.add(Dense(2, activation='softmax', kernel_regularizer=regularizers.l2(0.01) ) )
             sgd = SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True) 
             model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
             self.model = model
@@ -77,11 +78,11 @@ class EvaluationClass:
             input_shape = np.shape(X_train)[1]
             train_sample_num = np.shape(X_train)[0]
             model1 = Sequential()
-            model1.add(Dense(input_shape//2, activation='relu', input_dim=input_shape))
+            model1.add(Dense(input_shape//2, activation='relu', input_dim=input_shape,  kernel_regularizer=regularizers.l2(0.01) ) )
             model1.add(Dropout(0.5))
-            model1.add(Dense(input_shape//4, activation='relu'))
+            model1.add(Dense(input_shape//4, activation='relu', kernel_regularizer=regularizers.l2(0.01) ) )
             model1.add(BatchNormalization())
-            model1.add(Dense(2, activation='softmax'))
+            model1.add(Dense(2, activation='softmax', kernel_regularizer=regularizers.l2(0.01) ) )
             sgd = SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True) 
             model1.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
             self.model1 = model1

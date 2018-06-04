@@ -211,12 +211,15 @@ class EvaluationClass:
         curve = EvaluationClass._curve( Y_continuous, Y_test_portfolio)
         figure.plot( curve , label = "Average" )
         plt.title("Start Date:" + Start_date )
-        plt.legend(loc = "upper left")
+        plt.xlabel("Time")
+        plt.ylabel("Asset Value")
+        box = figure.get_position()
+        figure.set_position([box.x0,box.y0,box.width*0.8,box.height])
+        figure.legend(loc='upper left',bbox_to_anchor=(1.0,0.5))
         plt.show() 
         
-        
     def _curve( portfolio, price):
-        total = 10
+        total = 100000
         curve = []
         curve.append( total )
         for i in range( len(price[0])-1 ):

@@ -18,7 +18,6 @@ Contributors:
 - ***MingWen Liu*** 
 - ***Tao Dong***
 - ***XiuWen Duan***
-- ***ZiYi Yang***
 
 Institutions: 
 ------- 

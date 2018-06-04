@@ -1,5 +1,4 @@
-***
-# Stock Selection: a Framework
+# A Machine Learning Framework for Stock Selection
 
 Introduction
 ====

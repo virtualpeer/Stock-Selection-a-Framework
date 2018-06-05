@@ -180,7 +180,7 @@ class EvaluationClass:
         
     def evalu_por( X_test_portfolio, X_test_portfolio_masked, Y_test_portfolio, model_collection, Q, Start_date):
         
-        figure = (plt.figure()).add_subplot(111)
+        figure = (plt.figure(figsize=(15,6))).add_subplot(111)
         for i in range(len(model_collection)):
             name, model = model_collection[i]
             if i<=3:
@@ -215,7 +215,8 @@ class EvaluationClass:
         plt.ylabel("Asset Value")
         box = figure.get_position()
         figure.set_position([box.x0,box.y0,box.width*0.8,box.height])
-        figure.legend(loc='upper left',bbox_to_anchor=(1.0,0.5))
+        figure.legend(loc='center left',bbox_to_anchor=(1.0,0.5))
+        plt.savefig(Start_date+".png",dpi=300)
         plt.show() 
         
     def _curve( portfolio, price):

@@ -7,7 +7,7 @@ XingYu Fu; JinHong Du; YiFeng Guo; MingWen Liu; Tao Dong; XiuWen Duan;
 Institutions:
 AI&Fintech Lab of Likelihood Technology; 
 Gradient Trading;
-School of Mathematics, Sun Yat-sen University;
+Sun Yat-sen University;
 
 Contact:
 fuxy28@mail2.sysu.edu.cn

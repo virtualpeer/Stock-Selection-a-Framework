@@ -1,14 +1,13 @@
 """
-Stock Selection ----- Deep or Traditional Methods?
+A Machine Learning Framework for Stock Selection
     
 Authors:
 XingYu Fu; JinHong Du; YiFeng Guo; MingWen Liu; Tao Dong; XiuWen Duan; 
-ZiYi Yang;
 
 Institutions:
-AI&Fintech Lab of Gradient Trading; 
+AI&Fintech Lab of Likelihood Technology; 
+Gradient Trading;
 School of Mathematics, Sun Yat-sen University;
-LingNan College, Sun Yat-sen University;
 
 Contact:
 fuxy28@mail2.sysu.edu.cn

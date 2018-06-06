@@ -1,5 +1,5 @@
 """
-Stock Selection ----- Deep or Traditional Methods?
+A Machine Learning Framework for Stock Selection
     
 Authors:
 XingYu Fu; JinHong Du; YiFeng Guo; MingWen Liu; Tao Dong; XiuWen Duan; 

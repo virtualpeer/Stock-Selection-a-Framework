@@ -11,7 +11,6 @@ This project demonstrates how to apply machine learning algorithms to distinguis
 About
 ====
 - For details, you can have the research paper at:***http://arxiv.org/abs/1806.01743***.
-- A paper copy is also uploaded in this github page. 
 - Currently, we do not plan to reveal the whole raw dataset, while a data sample will be shared.
 
 Contributions

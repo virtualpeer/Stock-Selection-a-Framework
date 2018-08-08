@@ -27,7 +27,7 @@ Contributors:
 Institutions: 
 ------- 
 - ***AI&FintechLab of Likelihood Technology***
-- ***Gradient Trading***
+- ***ShiningMidas Private Fund***
 - ***Sun Yat-sen University***
 
 Set up

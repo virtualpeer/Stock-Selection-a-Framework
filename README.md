@@ -26,7 +26,7 @@ Contributors:
 
 Institutions: 
 ------- 
-- ***AI&FintechLab of Likelihood Technology***
+- ***Likelihood Lab***
 - ***ShiningMidas Private Fund***
 - ***Sun Yat-sen University***
 

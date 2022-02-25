@@ -1,3 +1,5 @@
+https://paperswithcode.com/paper/a-machine-learning-framework-for-stock
+
 # A Machine Learning Framework for Stock Selection
 
 Introduction
